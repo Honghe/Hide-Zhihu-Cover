@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "隐藏知乎文章封面",
+    "version": "1.0",
+    "description": "Hide Zhihu Article Cover",
+    "content_scripts": [
+        {
+            "js": ["content.js"],
+            "run_at": "document_end",
+            "matches": [
+                "https://zhuanlan.zhihu.com/p/*"
+            ]
+        }
+    ]
+  }
