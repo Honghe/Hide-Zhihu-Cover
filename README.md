@@ -6,3 +6,8 @@
 - 封面图片多数情况下没有提供有用信息，却占用重要的版面。
 
 本扩展不足: 虽然隐藏了封面图片，但封面图片仍在后台下载至完成，因为其是`"run_at": "document_end"`。
+
+
+Speed: `.getElementsByClassName` vs `.querySelectorAll`
+
+> `document.getElementsByClassName` returns a live HTMLCollection. `document.querySelectorAll` returns a static NodeList.
